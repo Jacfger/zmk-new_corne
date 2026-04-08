@@ -106,7 +106,7 @@
 &kp TAB        &kp Q    &kp W     &kp E    &kp R     &kp T                                    &kp UP                        &kp Y           &kp U           &kp I           &kp O           &kp P        &kp BSPC
 &kp LSHFT      &kp A    &kp S     &kp D    &kp F     &kp G                    &kp LEFT        &kp ENTER  &kp RIGHT          &kp H           &kp J           &kp K           &kp L           &kp SEMI     &kp SQT
 &td_lbkt       &kp Z    &kp X     &kp C    &kp V     &kp B      &kp SPACE                     &kp DOWN                      &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH     &td_lbrc
-                                                         &kp LGUI &kp SPACE &mo 1                                               &kp LCTRL &mo 2  &kp RALT
+                                                       &kp LGUI &mt LGUI SPACE &mo 1                                               &kp LCTRL &mo 2  &kp RALT
 >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
@@ -128,7 +128,7 @@
 &kp GRAVE      &kp N1   &kp N2    &kp N3   &kp N4    &kp N5                                   &mmv MOVE_UP                  &kp N6          &kp N7          &kp N8          &kp N9          &kp N0       &kp EQUAL
 &kp TILDE      &kp EXCL &kp AT    &kp HASH &kp DLLR  &kp PRCNT                &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT    &kp CARET       &kp AMPS        &kp ASTRK       &kp LPAR        &kp RPAR     &kp PLUS
 &kp PIPE       &kp BSLH &kp COLON &kp SEMI &kp MINUS &kp LBKT   &trans                        &mmv MOVE_DOWN                &kp RBKT        &kp UNDER       &kp COMMA       &kp DOT         &kp FSLH     &kp QMARK
-                                                          &mo 3    &kp LSHFT &trans                                              &trans    &trans &trans
+                                                        &mo 3    &kp LSHFT      &trans                                              &trans    &trans &trans
 >;
             sensor-bindings = <&scroll_encoder>;
         };
@@ -139,7 +139,7 @@
 &studio_unlock &kp F9   &kp F10   &kp F11  &kp F12   &trans                                   &mmv MOVE_UP                  &bt BT_CLR_ALL  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3 &trans
 &trans         &kp F5   &kp F6    &kp F7   &kp F8    &trans                   &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT    &trans          &kp RSHFT       &kp RCTRL       &kp LALT        &kp RGUI     &trans
 &trans         &kp F1   &kp F2    &kp F3   &kp F4    &trans     &kp C_MUTE                    &mmv MOVE_DOWN                &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_EFF &bootloader  &sys_reset
-                                                          &trans   &trans    &trans                                              &trans    &trans &trans
+                                                        &trans   &trans         &trans                                              &trans    &trans &trans
 >;
             sensor-bindings = <&scroll_encoder>;
         };
