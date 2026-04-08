@@ -46,8 +46,8 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - NAV
-  - SYM
   - $$mdi:apple-keyboard-control$$
+  - SYM
   - $$mdi:apple-keyboard-option$$
   NAV:
   - $$mdi:keyboard-esc$$
@@ -144,8 +144,8 @@ layers:
   - Fn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
