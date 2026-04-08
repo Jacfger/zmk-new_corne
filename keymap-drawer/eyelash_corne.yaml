@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - '&td_lbrc'
   - LGUI
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: LGUI}
   - NAV
   - $$mdi:apple-keyboard-control$$
   - SYM
@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - Fn
   - {t: '$$mdi:transfer$$', type: trans}
+  - Fn
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - {t: '`', s: '~'}
@@ -142,7 +142,7 @@ layers:
   - {t: /, s: '?'}
   - '?'
   - Fn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -193,8 +193,8 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
